@@ -1,0 +1,26 @@
+<codestructure version="5.8">
+<phptree>
+<treenode node="config.php;PHP:PHP Include;C:\xampp\htdocs\promocao\insere.php;f9;13;19;13;;C:\xampp\htdocs\promocao\index.php;f11;8;21;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="functions.php;PHP:PHP Include;C:\xampp\htdocs\promocao\insere.php;f9;14;22;14;;C:\xampp\htdocs\promocao\index.php;f11;9;24;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HOST;PHP:PHP Word;C:\xampp\htdocs\promocao\config.php;f8;1;12;1;;;;vpos;;v;;r&quot;localhost&quot;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="PASSWORD;PHP:PHP Word;C:\xampp\htdocs\promocao\config.php;f8;3;16;3;;;;vpos;;v;;r&quot;&quot;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="USER;PHP:PHP Word;C:\xampp\htdocs\promocao\config.php;f8;2;12;2;;;;vpos;;v;;r&quot;root&quot;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="converteDatetime;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;23;1;29;;;;vpos;;v;;r;;d36,23;;b0,0;;mdatetime;;p">
+</treenode>
+<treenode node="errDBConnected;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;1;1;7;;;;vpos;;v;;r;;d25,1;;b0,0;;m">
+</treenode>
+<treenode node="errDBSelected;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;9;1;14;;;;vpos;;v;;r;;d29,9;;b0,0;;mconn;;p">
+</treenode>
+<treenode node="errSQLQuery;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;16;1;21;;;;vpos;;v;;r;;d28,16;;b0,0;;mquery;;p">
+</treenode>
+<treenode node="getDatetime;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;31;1;38;;;;vpos;;v;;r;;d31,31;;b0,0;;mdatetime;;p">
+</treenode>
+<treenode node="getField;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;40;1;42;;;;vpos;;v;;r;;d25,40;;b0,0;;mfield;;p">
+</treenode>
+</phptree>
+</codestructure>

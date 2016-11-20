@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\xampp\htdocs\promocao\promocao.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/promocao]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/promocao]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\xampp\htdocs\promocao\index.php"/>
+		<file name="C:\xampp\htdocs\promocao\insere.php"/>
+		<file name="C:\xampp\htdocs\promocao\functions.php"/>
+		<file name="C:\xampp\htdocs\promocao\config.php"/>
+		<file name="C:\xampp\htdocs\promocao\style.css"/>
+		<file name="C:\xampp\htdocs\promocao\js.js"/>
+	</lastopfiles>
+	<errors version="5.3">
+	</errors>
+	<cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+	</todoblock>
+	<filescache>
+		<file name="C:\xampp\htdocs\promocao\style.css" crc="1479465379"/>
+		<file name="C:\xampp\htdocs\promocao\js.js" crc="1479215143"/>
+		<file name="C:\xampp\htdocs\promocao\insere.php" crc="1479590404"/>
+		<file name="C:\xampp\htdocs\promocao\index.php" crc="1479592957"/>
+		<file name="C:\xampp\htdocs\promocao\functions.php" crc="1479591530"/>
+		<file name="C:\xampp\htdocs\promocao\config.php" crc="1479247512"/>
+	</filescache>
+</project>
