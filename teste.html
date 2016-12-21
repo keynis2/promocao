@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="refresh" content="10;url=index.php" />
+		<title>Teste</title>
+	</head>
+	<body>
+		<h1>Teste</h1>
+		<div id="teste"></div>
+	</body>
+	<script type="text/javascript">
+		i = 10;
+		var n = setInterval(function(){ regressiva() }, 1000);
+		function regressiva(){
+			document.getElementById("teste").innerHTML = "Aguarde " + i-- + " segundos";
+		}
+		if (i == 0) clearInterval(n);
+	</script>
+</html>

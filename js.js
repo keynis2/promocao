@@ -22,3 +22,11 @@ function validacao(){
 	if (t("tUrlSite", "URL DO SITE")) return true;
 	if (t("taEnvioMax", "ENVIO MÁX.", "Entre com envio máx....")) return true;
 }
+
+function onIn(fieldName, value){
+	if (document.getElementsByName(fieldName)[0].value == value) document.getElementsByName(fieldName)[0].value = '';
+}
+
+function onOut(fieldName, value){
+	if (document.getElementsByName(fieldName)[0].value == '') document.getElementsByName(fieldName)[0].value = value;
+}

@@ -1,8 +1,16 @@
 <codestructure version="5.8">
 <phptree>
-<treenode node="config.php;PHP:PHP Include;C:\xampp\htdocs\promocao\insere.php;f9;13;19;13;;C:\xampp\htdocs\promocao\index.php;f11;8;21;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+<treenode node="config.php;PHP:PHP Include;C:\xampp\htdocs\promocao\insere.php;f9;25;19;25;;C:\xampp\htdocs\promocao\index.php;f11;8;21;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 </treenode>
-<treenode node="functions.php;PHP:PHP Include;C:\xampp\htdocs\promocao\insere.php;f9;14;22;14;;C:\xampp\htdocs\promocao\index.php;f11;9;24;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+<treenode node="E_DEPRECATED;PHP:PHP Word;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f12;49;24;49;;;;vpos;;v;;r8192;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="E_RECOVERABLE_ERROR;PHP:PHP Word;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f12;46;31;46;;;;vpos;;v;;r4096;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="E_STRICT;PHP:PHP Word;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f12;43;20;43;;;;vpos;;v;;r Description       see http://code.google.com/p/firephp/issues/detail?id=112;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="E_USER_DEPRECATED;PHP:PHP Word;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f12;52;29;52;;;;vpos;;v;;r16384;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="functions.php;PHP:PHP Include;C:\xampp\htdocs\promocao\insere.php;f9;26;22;26;;C:\xampp\htdocs\promocao\index.php;f11;9;24;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 </treenode>
 <treenode node="HOST;PHP:PHP Word;C:\xampp\htdocs\promocao\config.php;f8;1;12;1;;;;vpos;;v;;r&quot;localhost&quot;;;d-1,-1;;b0,0;;m">
 </treenode>
@@ -10,7 +18,161 @@
 </treenode>
 <treenode node="USER;PHP:PHP Word;C:\xampp\htdocs\promocao\config.php;f8;2;12;2;;;;vpos;;v;;r&quot;root&quot;;;d-1,-1;;b0,0;;m">
 </treenode>
-<treenode node="converteDatetime;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;23;1;29;;;;vpos;;v;;r;;d36,23;;b0,0;;mdatetime;;p">
+<treenode node="FB;PHP:Class Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f0;62;1;274;;;;vpos;;v;;r;;d0,63;;b0,0;;m">
+<treenode node="dump;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f18;242;5;245;;;;vpos;;vtrue;;r Definition     dump($key, $variable)  Description      Dumps key and variable to firebug server panel  Parameters:     string $key     mixed $variable;;d4,243;;b1,5;;mstring $key;;pmixed $variable;;p">
+</treenode>
+<treenode node="error;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f18;228;5;231;;;;vpos;;vtrue;;r Definition     error($object, $label=null)  Description      Log object with label to firebug console  Parameters:     mixed $object     string $label;;d4,229;;b1,5;;mmixed $object;;pstring $label;;p">
+</treenode>
+<treenode node="getEnabled;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f18;93;5;96;;;;vpos;;vboolean;;r Definition     getEnabled()  Description      Check if logging is enabled  Return:    TRUE if enabled;;d4,94;;b1,5;;m">
+</treenode>
+<treenode node="getOptions;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f18;131;5;134;;;;vpos;;varray;;r Definition     getOptions()  Description      Get options for the library  Return:    The options;;d4,132;;b1,5;;m">
+</treenode>
+<treenode node="group;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f18;161;5;164;;;;vpos;;vtrue;;r Definition     group($name, $options=null)  Description      Start a group for following messages  Parameters:     string $name     array $options - OPTIONAL Instructions on how to log the group;;d4,162;;b1,5;;mstring $name;;parray $options;;p">
+</treenode>
+<treenode node="groupEnd;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f18;172;5;175;;;;vpos;;vtrue;;r Definition     groupEnd()  Description      Ends a group you have started before;;d4,173;;b1,5;;m">
+</treenode>
+<treenode node="info;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f18;200;5;203;;;;vpos;;vtrue;;r Definition     info($object, $label=null)  Description      Log object with label to firebug console  Parameters:     mixed $object     string $label;;d4,201;;b1,5;;mmixed $object;;pstring $label;;p">
+</treenode>
+<treenode node="log;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f18;186;5;189;;;;vpos;;vtrue;;r Definition     log($object, $label=null)  Description      Log object with label to firebug console  Parameters:     mixed $object     string $label;;d4,187;;b1,5;;mmixed $object;;pstring $label;;p">
+</treenode>
+<treenode node="send;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f18;144;5;148;;;;vpos;;vtrue;;r Definition     send()  Description      Log object to firebug  Parameters:     mixed $object;;d4,145;;b1,5;;m">
+</treenode>
+<treenode node="setEnabled;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f18;82;5;85;;;;vpos;;vvoid;;r Definition     setEnabled($enabled)  Description      Enable and disable logging to Firebug  Parameters:     boolean $enabled - TRUE to enable, FALSE to disable;;d4,83;;b1,5;;mboolean $enabled;;p">
+</treenode>
+<treenode node="setLogToInsightConsole;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f18;70;5;73;;;;vpos;;vvoid;;r Definition     setLogToInsightConsole($console)  Description      Set an Insight console to direct all logging calls to  Parameters:     object $console - The console object to log to;;d4,71;;b1,5;;mobject $console;;p">
+</treenode>
+<treenode node="setObjectFilter;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f18;108;5;111;;;;vpos;;vvoid;;r Definition     setObjectFilter($class, $filter)  Description      Specify a filter to be used when encoding an object  Parameters:     string $class - The class name of the object     array $filter - An array or members to exclude;;d4,109;;b1,5;;mstring $class;;parray $filter;;p">
+</treenode>
+<treenode node="setOptions;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f18;120;5;123;;;;vpos;;vvoid;;r Definition     setOptions($options)  Description      Set some options for the library  Parameters:     array $options - The options to be set;;d4,121;;b1,5;;marray $options;;p">
+</treenode>
+<treenode node="table;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f18;269;5;272;;;;vpos;;vtrue;;r Definition     table($label, $table)  Description      Log a table in the firebug console  Parameters:     string $label     string $table;;d4,270;;b1,5;;mstring $label;;pstring $table;;p">
+</treenode>
+<treenode node="trace;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f18;255;5;258;;;;vpos;;vtrue;;r Definition     trace($label)  Description      Log a trace in the firebug console  Parameters:     string $label;;d4,256;;b1,5;;mstring $label;;p">
+</treenode>
+<treenode node="warn;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f18;214;5;217;;;;vpos;;vtrue;;r Definition     warn($object, $label=null)  Description      Log object with label to firebug console  Parameters:     mixed $object     string $label;;d4,215;;b1,5;;mmixed $object;;pstring $label;;p">
+</treenode>
+</treenode>
+<treenode node="FirePHP;PHP:Class Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f0;67;1;1840;;;;vpos;;v;;r Definition     class FirePHP  Description      Sends the given data to the FirePHP Firefox Extension. The data can be displayed in the Firebug Console or in the &quot;Server&quot; request tab.;;d14,67;;b0,0;;m">
+<treenode node="DUMP;PHP:PHP Word;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f9;117;14;117;;;;vposstring;;v;;r&apos;DUMP&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="ERROR;PHP:PHP Word;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f9;110;15;110;;;;vposstring;;v;;r&apos;ERROR&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="EXCEPTION;PHP:PHP Word;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f9;133;19;133;;;;vposstring;;v;;r&apos;EXCEPTION&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="GROUP_END;PHP:PHP Word;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f9;154;19;154;;;;vposstring;;v;;r&apos;GROUP_END&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="GROUP_START;PHP:PHP Word;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f9;147;21;147;;;;vposstring;;v;;r&apos;GROUP_START&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="INFO;PHP:PHP Word;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f9;92;14;92;;;;vposstring;;v;;r&apos;INFO&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="LOG;PHP:PHP Word;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f9;83;13;83;;;;vposstring;;v;;r&apos;LOG&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="TABLE;PHP:PHP Word;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f9;140;15;140;;;;vposstring;;v;;r&apos;TABLE&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="TRACE;PHP:PHP Word;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f9;124;15;124;;;;vposstring;;v;;r&apos;TRACE&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="VERSION;PHP:PHP Word;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f9;74;17;74;;;;vposstring;;v;;r&apos;0.3&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="WARN;PHP:PHP Word;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f9;101;14;101;;;;vposstring;;v;;r&apos;WARN&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="__sleep;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;245;5;248;;;;vpos;;varray;;r Definition     __sleep()  Description      When the object gets serialized only include specific object members.;;d4,246;;b1,0;;m">
+</treenode>
+<treenode node="_escapeTrace;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f14;1112;5;1124;;;;vpos;;varray;;r Definition     _escapeTrace($trace)  Description      Escape trace path for windows systems  Parameters:     array $trace;;d4,1113;;b2,0;;marray $trace;;p">
+</treenode>
+<treenode node="_escapeTraceFile;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f14;1132;5;1143;;;;vpos;;vstring;;r Definition     _escapeTraceFile($file)  Description      Escape file information of trace for windows systems  Parameters:     string $file;;d4,1133;;b2,0;;mstring $file;;p">
+</treenode>
+<treenode node="_standardizePath;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f14;1101;5;1104;;;;vpos;;vstring;;r Definition     _standardizePath($path)  Description      Standardizes path for windows systems.  Parameters:     string $path;;d4,1102;;b2,0;;mstring $path;;p">
+</treenode>
+<treenode node="assertionHandler;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;508;5;523;;;;vpos;;v;;r Definition     assertionHandler($file, $line, $code)  Description      FirePHP&apos;s assertion handler  Parameters:     string $file - File source of assertion     integer $line - Line source of assertion     mixed $code - Assertion code;;d4,509;;b1,0;;mstring $file;;pinteger $line;;pmixed $code;;p">
+</treenode>
+<treenode node="detectClientExtension;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;708;5;721;;;;vpos;;vboolean;;r Definition     detectClientExtension()  Description      Check if FirePHP is installed on client;;d4,709;;b1,0;;m">
+</treenode>
+<treenode node="dump;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;632;5;644;;;;vpos;;vtrue;;r Definition     dump($key, $variable, $options = array())  Description      Dumps key and variable to firebug server panel  Parameters:     string $key     mixed $variable;;d4,633;;b1,0;;mkey;;pvariable;;poptions;;p">
+</treenode>
+<treenode node="encodeObject;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f14;1288;5;1430;;;;vpos;;varray;;r Definition     encodeObject($object, $objectDepth = 1, $arrayDepth = 1, $maxDepth = 1)  Description      Encodes an object including members with protected and private visibility  Parameters:     object $object - The object to be encoded     integer $Depth - The current traversal depth  Return:    All members of the object;;d4,1289;;b2,0;;mobject;;pobjectDepth;;parrayDepth;;pmaxDepth;;p">
+</treenode>
+<treenode node="encodeTable;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f14;1259;5;1278;;;;vpos;;varray;;r Definition     encodeTable($table)  Description      Encodes a table by encoding each row and column with encodeObject()  Parameters:     array $table - The table to be encoded;;d4,1260;;b2,0;;marray $table;;p">
+</treenode>
+<treenode node="error;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;618;5;621;;;;vpos;;vtrue;;r Definition     error($object, $label = null, $options = array())  Description      Log object with label to firebug console  Parameters:     mixes $object     string $label;;d4,619;;b1,0;;mobject;;plabel;;poptions;;p">
+</treenode>
+<treenode node="errorHandler;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;427;5;443;;;;vpos;;v;;r Definition     errorHandler($errno, $errstr, $errfile, $errline, $errcontext)  Description      FirePHP&apos;s error handler  Parameters:     integer $errno     string $errstr     string $errfile     integer $errline     array $errcontext;;d4,428;;b1,0;;minteger $errno;;pstring $errstr;;pstring $errfile;;pinteger $errline;;parray $errcontext;;p">
+</treenode>
+<treenode node="exceptionHandler;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f4;465;5;478;;;;vpos;;v;;r Definition     exceptionHandler($exception)  Description      FirePHP&apos;s exception handler  Parameters:     Exception $exception;;d4,466;;b0,0;;mException $exception;;p">
+</treenode>
+<treenode node="fb;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;731;5;1093;;;;vpos;;vboolean;;r Definition     fb($object)  Description      Log varible to Firebug  Parameters:     mixed $object - The variable to be logged  Return:    Return TRUE if message was added to headers, FALSE otherwise;;d4,732;;b1,0;;mmixed $object;;p">
+</treenode>
+<treenode node="getAllRequestHeaders;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f18;1183;5;1202;;;;vpos;;varray;;r Definition     getAllRequestHeaders()  Description      Get all request headers;;d4,1184;;b1,5;;m">
+</treenode>
+<treenode node="getEnabled;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;319;5;322;;;;vpos;;vboolean;;r Definition     getEnabled()  Description      Check if logging is enabled  Return:    TRUE if enabled;;d4,320;;b1,0;;m">
+</treenode>
+<treenode node="getInstance;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f18;256;5;262;;;;vpos;;vFirePHP;;r Definition     getInstance($autoCreate = false)  Description      Gets singleton instance of FirePHP  Parameters:     boolean $autoCreate;;d4,257;;b1,5;;mboolean $autoCreate;;p">
+</treenode>
+<treenode node="getOption;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;389;5;395;;;;vpos;;vmixed;;r Definition     getOption($name)  Description      Get an option from the library  Parameters:     string $name;;d4,390;;b1,0;;mstring $name;;p">
+</treenode>
+<treenode node="getOptions;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;361;5;364;;;;vpos;;varray;;r Definition     getOptions()  Description      Get options from the library  Return:    The currently set options;;d4,362;;b1,0;;m">
+</treenode>
+<treenode node="getRequestHeader;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f14;1209;5;1216;;;;vpos;;vstring;;r Definition     getRequestHeader($name)  Description      Get a request header  Return:    |false;;d4,1210;;b2,0;;mname;;p">
+</treenode>
+<treenode node="getUserAgent;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f14;1172;5;1176;;;;vpos;;vstring;;r Definition     getUserAgent()  Description      Get user agent  Return:    |false;;d4,1173;;b2,0;;m">
+</treenode>
+<treenode node="group;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;537;5;554;;;;vpos;;vtrue;;r Definition     group($name, $options = null)  Description      Start a group for following messages.  Parameters:     string $name     array $options - OPTIONAL Instructions on how to log the group;;d4,538;;b1,0;;mstring $name;;parray $options;;p">
+</treenode>
+<treenode node="groupEnd;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;562;5;565;;;;vpos;;vtrue;;r Definition     groupEnd()  Description      Ends a group you have started before;;d4,563;;b1,0;;m">
+</treenode>
+<treenode node="headersSent;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f14;1151;5;1154;;;;vpos;;v;;r Definition     headersSent(&amp;$filename, &amp;$linenum)  Description      Check if headers have already been sent  Parameters:     string $filename     integer $linenum;;d4,1152;;b2,0;;mstring $filename;;pinteger $linenum;;p">
+</treenode>
+<treenode node="info;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;590;5;593;;;;vpos;;vtrue;;r Definition     info($object, $label = null, $options = array())  Description      Log object with label to firebug console  Parameters:     mixes $object     string $label;;d4,591;;b1,0;;mobject;;plabel;;poptions;;p">
+</treenode>
+<treenode node="init;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f18;269;5;272;;;;vpos;;vFirePHP;;r Definition     init()  Description      Creates FirePHP object and stores it for singleton access;;d4,270;;b1,5;;m">
+</treenode>
+<treenode node="is_utf8;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f14;1438;5;1470;;;;vpos;;vboolean;;r Definition     is_utf8($str)  Description      Returns true if $string is valid UTF-8 and false otherwise.  Parameters:     mixed $str - String to be tested;;d4,1439;;b2,0;;mmixed $str;;p">
+</treenode>
+<treenode node="json_encode;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f12;1590;5;1793;;;;vpos;;vmixed;;r Definition     json_encode($var)  Description      encodes an arbitrary variable into JSON format  Parameters:     mixed $var - any number, boolean, string, array, or object to be encoded  Return:    JSON string representation of input var or an error if a problem occurs;;d4,1591;;b3,0;;mmixed $var;;p">
+</treenode>
+<treenode node="json_name_value;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f12;1804;5;1823;;;;vpos;;vstring;;r Definition     json_name_value($name, $value)  Description      array-walking function for use in generating JSON-formatted name-value pairs  Parameters:     string $name - name of key to use     mixed $value - reference to an array element to be encoded  Return:    JSON-formatted name-value pair, like &apos;&quot;name&quot;:value&apos;;;d4,1805;;b3,0;;mstring $name;;pmixed $value;;p">
+</treenode>
+<treenode node="json_utf82utf16;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f12;1546;5;1577;;;;vpos;;vstring;;r Definition     json_utf82utf16($utf8)  Description      convert a string from one UTF-8 char to one UTF-16 char  Parameters:     string $utf8 - UTF-8 character  Return:    UTF-16 character;;d4,1547;;b3,0;;mstring $utf8;;p">
+</treenode>
+<treenode node="jsonEncode;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;1238;5;1251;;;;vpos;;vstring;;r Definition     jsonEncode($object, $skipObjectEncode = false)  Description      Encode an object into a JSON string  Parameters:     object $object - The object to be encoded     boolean $skipObjectEncode  Return:    The JSON string;;d4,1239;;b1,0;;mobject $object;;pboolean $skipObjectEncode;;p">
+</treenode>
+<treenode node="log;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;576;5;579;;;;vpos;;vtrue;;r Definition     log($object, $label = null, $options = array())  Description      Log object with label to firebug console  Parameters:     mixes $object     string $label;;d4,577;;b1,0;;mobject;;plabel;;poptions;;p">
+</treenode>
+<treenode node="newException;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f14;1224;5;1227;;;;vpos;;vException;;r Definition     newException($message)  Description      Returns a new exception  Parameters:     string $message;;d4,1225;;b2,0;;mstring $message;;p">
+</treenode>
+<treenode node="plugin;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f18;693;5;701;;;;vpos;;v;;r Definition     plugin()  Description      Insight API wrapper;;d4,694;;b1,5;;m">
+</treenode>
+<treenode node="registerAssertionHandler;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;487;5;497;;;;vpos;;vmixed;;r Definition     registerAssertionHandler($convertAssertionErrorsToExceptions = true, $throwAssertionExceptions = false)  Description      Register FirePHP driver as your assert callback  Parameters:     boolean $convertAssertionErrorsToExceptions     boolean $throwAssertionExceptions  Return:    Returns the original setting or FALSE on errors;;d4,488;;b1,0;;mboolean $convertAssertionErrorsToExceptions;;pboolean $throwAssertionExceptions;;p">
+</treenode>
+<treenode node="registerErrorHandler;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;404;5;414;;;;vpos;;vmixed;;r Definition     registerErrorHandler($throwErrorExceptions = false)  Description      Register FirePHP as your error handler  Return:    Returns a string containing the previously defined error handler (if any);;d4,405;;b1,0;;mthrowErrorExceptions;;p">
+</treenode>
+<treenode node="registerExceptionHandler;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;452;5;455;;;;vpos;;vmixed;;r Definition     registerExceptionHandler()  Description      Register FirePHP as your exception handler  Return:    Returns the name of the previously defined exception handler,;;d4,453;;b1,0;;m">
+</treenode>
+<treenode node="setEnabled;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;309;5;312;;;;vpos;;vvoid;;r Definition     setEnabled($enabled)  Description      Enable and disable logging to Firebug  Parameters:     boolean $enabled - TRUE to enable, FALSE to disable;;d4,310;;b1,0;;mboolean $enabled;;p">
+</treenode>
+<treenode node="setHeader;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f14;1162;5;1165;;;;vpos;;v;;r Definition     setHeader($name, $value)  Description      Send header  Parameters:     string $name     string $value;;d4,1163;;b2,0;;mstring $name;;pstring $value;;p">
+</treenode>
+<treenode node="setInstance;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f18;280;5;283;;;;vpos;;vFirePHP;;r Definition     setInstance($instance)  Description      Set the instance of the FirePHP singleton  Parameters:     FirePHP $instance - The FirePHP object instance;;d4,281;;b1,5;;mFirePHP $instance;;p">
+</treenode>
+<treenode node="setLogToInsightConsole;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;291;5;301;;;;vpos;;vvoid;;r Definition     setLogToInsightConsole($console)  Description      Set an Insight console to direct all logging calls to  Parameters:     object $console - The console object to log to;;d4,292;;b1,0;;mobject $console;;p">
+</treenode>
+<treenode node="setObjectFilter;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;333;5;336;;;;vpos;;vvoid;;r Definition     setObjectFilter($class, $filter)  Description      Specify a filter to be used when encoding an object  Parameters:     string $class - The class name of the object     array $filter - An array of members to exclude;;d4,334;;b1,0;;mstring $class;;parray $filter;;p">
+</treenode>
+<treenode node="setOption;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;374;5;380;;;;vpos;;vvoid;;r Definition     setOption($name, $value)  Description      Set an option for the library  Parameters:     string $name     mixed $value;;d4,375;;b1,0;;mstring $name;;pmixed $value;;p">
+</treenode>
+<treenode node="setOptions;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;351;5;354;;;;vpos;;vvoid;;r Definition     setOptions($options)  Description      Set some options for the library  Parameters:     array $options - The options to be set;;d4,352;;b1,0;;marray $options;;p">
+</treenode>
+<treenode node="setProcessorUrl;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;1828;5;1831;;;;vpos;;v;;r Definition     setProcessorUrl($URL)  Description       deprecated;;d4,1829;;b1,0;;mURL;;p">
+</treenode>
+<treenode node="setRendererUrl;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;1836;5;1839;;;;vpos;;v;;r Definition     setRendererUrl($URL)  Description       deprecated;;d4,1837;;b1,0;;mURL;;p">
+</treenode>
+<treenode node="table;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;668;5;671;;;;vpos;;vtrue;;r Definition     table($label, $table, $options = array())  Description      Log a table in the firebug console  Parameters:     string $label     string $table;;d4,669;;b1,0;;mlabel;;ptable;;poptions;;p">
+</treenode>
+<treenode node="to;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f18;678;5;686;;;;vpos;;v;;r Definition     to()  Description      Insight API wrapper;;d4,679;;b1,5;;m">
+</treenode>
+<treenode node="trace;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;654;5;657;;;;vpos;;vtrue;;r Definition     trace($label)  Description      Log a trace in the firebug console  Parameters:     string $label;;d4,655;;b1,0;;mstring $label;;p">
+</treenode>
+<treenode node="warn;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;604;5;607;;;;vpos;;vtrue;;r Definition     warn($object, $label = null, $options = array())  Description      Log object with label to firebug console  Parameters:     mixes $object     string $label;;d4,605;;b1,0;;mobject;;plabel;;poptions;;p">
+</treenode>
 </treenode>
 <treenode node="errDBConnected;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;1;1;7;;;;vpos;;v;;r;;d25,1;;b0,0;;m">
 </treenode>
@@ -18,9 +180,19 @@
 </treenode>
 <treenode node="errSQLQuery;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;16;1;21;;;;vpos;;v;;r;;d28,16;;b0,0;;mquery;;p">
 </treenode>
-<treenode node="getDatetime;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;31;1;38;;;;vpos;;v;;r;;d31,31;;b0,0;;mdatetime;;p">
+<treenode node="fb;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\fb.php;f0;53;1;59;;;;vpos;;vtrue;;r Definition     fb()  Description      Sends the given data to the FirePHP Firefox Extension. The data can be displayed in the Firebug Console or in the &quot;Server&quot; request tab.  Parameters:     mixed $Object;;d0,54;;b0,0;;m">
 </treenode>
-<treenode node="getField;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;40;1;42;;;;vpos;;v;;r;;d25,40;;b0,0;;mfield;;p">
+<treenode node="getDatetime;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;32;1;35;;;;vpos;;v;;r;;d31,32;;b0,0;;mdatetime;;p">
+</treenode>
+<treenode node="getDateTtime;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;37;1;43;;;;vpos;;v;;r;;d32,37;;b0,0;;mdatetime;;p">
+</treenode>
+<treenode node="getField;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;45;1;47;;;;vpos;;v;;r;;d25,45;;b0,0;;mfield;;p">
+</treenode>
+<treenode node="setDatetime;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;23;1;30;;;;vpos;;v;;r;;d31,23;;b0,0;;mdatetime;;p">
+</treenode>
+<treenode node="setUrlSite;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;49;1;51;;;;vpos;;v;;r;;d29,49;;b0,0;;murlSite;;p">
+</treenode>
+<treenode node="uploadImage;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;53;1;101;;;;vpos;;v;;r;;d29,53;;b0,0;;mimagem;;p">
 </treenode>
 </phptree>
 </codestructure>
