@@ -1,0 +1,23 @@
+
+<!--
+
+<meta http-equiv="refresh" content="5;url=javascript:history.go(-1)" />
+
+<?php header("Location: http://www.google.com.br"); ?>
+
+<script type="text/javascript">
+	window.location = "http://www.google.com.br";
+</script>
+
+-->
+
+
+		
+		<!--
+		
+		$diretorio = $_GET['dir'];
+$info = pathinfo($diretorio);
+$dirname = $info['dirname'];
+<a href="index.php?dir=<? echo $dirname ?>">voltar</a>
+
+		-->

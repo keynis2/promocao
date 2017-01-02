@@ -1,6 +1,6 @@
 <codestructure version="5.8">
 <phptree>
-<treenode node="config.php;PHP:PHP Include;C:\xampp\htdocs\promocao\insere.php;f9;25;19;25;;C:\xampp\htdocs\promocao\index.php;f11;8;21;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+<treenode node="config.php;PHP:PHP Include;C:\xampp\htdocs\promocao\insere.php;f9;16;19;16;;C:\xampp\htdocs\promocao\index.php;f11;9;21;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 </treenode>
 <treenode node="E_DEPRECATED;PHP:PHP Word;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f12;49;24;49;;;;vpos;;v;;r8192;;d-1,-1;;b0,0;;m">
 </treenode>
@@ -10,7 +10,7 @@
 </treenode>
 <treenode node="E_USER_DEPRECATED;PHP:PHP Word;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f12;52;29;52;;;;vpos;;v;;r16384;;d-1,-1;;b0,0;;m">
 </treenode>
-<treenode node="functions.php;PHP:PHP Include;C:\xampp\htdocs\promocao\insere.php;f9;26;22;26;;C:\xampp\htdocs\promocao\index.php;f11;9;24;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+<treenode node="functions.php;PHP:PHP Include;C:\xampp\htdocs\promocao\insere.php;f9;17;22;17;;C:\xampp\htdocs\promocao\index.php;f11;10;24;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 </treenode>
 <treenode node="HOST;PHP:PHP Word;C:\xampp\htdocs\promocao\config.php;f8;1;12;1;;;;vpos;;v;;r&quot;localhost&quot;;;d-1,-1;;b0,0;;m">
 </treenode>
@@ -172,6 +172,18 @@
 <treenode node="trace;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;654;5;657;;;;vpos;;vtrue;;r Definition     trace($label)  Description      Log a trace in the firebug console  Parameters:     string $label;;d4,655;;b1,0;;mstring $label;;p">
 </treenode>
 <treenode node="warn;PHP:Function Name;C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php;f11;604;5;607;;;;vpos;;vtrue;;r Definition     warn($object, $label = null, $options = array())  Description      Log object with label to firebug console  Parameters:     mixes $object     string $label;;d4,605;;b1,0;;mobject;;plabel;;poptions;;p">
+</treenode>
+</treenode>
+<treenode node="Upload;PHP:Class Name;C:\xampp\htdocs\promocao\Codelobster0.php;f1;5;2;100;;C:\xampp\htdocs\promocao\functions.php;f0;104;1;203;;;;vpos;;v;;r;;d12,104;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\promocao\Codelobster0.php;f2;11;3;16;;C:\xampp\htdocs\promocao\functions.php;f1;114;2;119;;;;vpos;;v;;r;;d58,114;;b0,0;;marquivo;;paltura;;plargura;;ppasta;;p">
+</treenode>
+<treenode node="ehImagem;PHP:Function Name;C:\xampp\htdocs\promocao\Codelobster0.php;f10;23;3;27;;C:\xampp\htdocs\promocao\functions.php;f9;126;2;130;;;;vpos;;v;;r;;d37,126;;b3,0;;mextensao;;p">
+</treenode>
+<treenode node="getExtensao;PHP:Function Name;C:\xampp\htdocs\promocao\Codelobster0.php;f10;18;3;21;;C:\xampp\htdocs\promocao\functions.php;f9;121;2;124;;;;vpos;;v;;r;;d31,121;;b3,0;;m">
+</treenode>
+<treenode node="redimensionar;PHP:Function Name;C:\xampp\htdocs\promocao\Codelobster0.php;f10;30;3;72;;C:\xampp\htdocs\promocao\functions.php;f9;133;2;175;;;;vpos;;v;;r;;d75,133;;b3,0;;mimgLarg;;pimgAlt;;ptipo;;pimg_localizacao;;p">
+</treenode>
+<treenode node="salvar;PHP:Function Name;C:\xampp\htdocs\promocao\Codelobster0.php;f9;74;3;99;;C:\xampp\htdocs\promocao\functions.php;f8;177;2;202;;;;vpos;;v;;r;;d25,177;;b1,0;;m">
 </treenode>
 </treenode>
 <treenode node="errDBConnected;PHP:Function Name;C:\xampp\htdocs\promocao\functions.php;f0;1;1;7;;;;vpos;;v;;r;;d25,1;;b0,0;;m">

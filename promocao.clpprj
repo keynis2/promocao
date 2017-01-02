@@ -3,20 +3,11 @@
 	<settings><PM_URL><![CDATA[http://localhost/promocao]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/promocao]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
 		<file name="C:\xampp\htdocs\promocao\index.php"/>
 		<file name="C:\xampp\htdocs\promocao\style.css"/>
-		<file name="C:\xampp\htdocs\promocao\insere.php"/>
 		<file name="C:\xampp\htdocs\promocao\functions.php"/>
-		<file name="C:\xampp\htdocs\promocao\js.js"/>
+		<file name="C:\xampp\htdocs\promocao\insere.php"/>
 	</lastopfiles>
 	<errors version="5.3">
 	</errors>
-	<cakedata>
-	</cakedata>
-	<dplmenupath>
-	</dplmenupath><laravael>
-	</laravael><smartyassings>
-	</smartyassings><twigtemplate>
-	</twigtemplate><yiidata>
-	</yiidata>
 	<todoblock>
 	</todoblock>
 	<filescache>
@@ -24,11 +15,13 @@
 		<file name="C:\xampp\htdocs\promocao\FirePHPCore\FirePHP.class.php" crc="1438534630"/>
 		<file name="C:\xampp\htdocs\promocao\FirePHPCore\fb.php" crc="1438534630"/>
 		<file name="C:\xampp\htdocs\promocao\teste.js" crc="1480070911"/>
-		<file name="C:\xampp\htdocs\promocao\style.css" crc="1482087248"/>
+		<file name="C:\xampp\htdocs\promocao\teste.html" crc="1482281532"/>
+		<file name="C:\xampp\htdocs\promocao\style.css" crc="1483319534"/>
 		<file name="C:\xampp\htdocs\promocao\js.js" crc="1482110083"/>
-		<file name="C:\xampp\htdocs\promocao\insere.php" crc="1482076227"/>
-		<file name="C:\xampp\htdocs\promocao\index.php" crc="1482277641"/>
-		<file name="C:\xampp\htdocs\promocao\functions.php" crc="1482109044"/>
+		<file name="C:\xampp\htdocs\promocao\insere.php" crc="1483318141"/>
+		<file name="C:\xampp\htdocs\promocao\index.php" crc="1483319789"/>
+		<file name="C:\xampp\htdocs\promocao\functions.php" crc="1483316646"/>
 		<file name="C:\xampp\htdocs\promocao\config.php" crc="1481233943"/>
+		<file name="C:\xampp\htdocs\promocao\Codelobster0.php" crc="1482879626"/>
 	</filescache>
 </project>

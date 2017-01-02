@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<meta charset="utf-8" />
 		<title>Promoção</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
  	</head>
@@ -14,7 +15,7 @@
 		try{ errDBSelected($conn); } catch (Exception $e){ echo $e->getMessage();}
 
 		if ((isset($_GET['op'])) && (!empty($_GET['op']))) $op = $_GET['op']; else $op = false;
-		if ((isset($_GET['id'])) && (!empty($_GET['id']))) $id = $_GET['id']; else $id = false;
+		if ((isset($_POST['id'])) && (!empty($_POST['id']))) $id = $_POST['id']; else $id = false;
 		
 		if (($op == 'edit') || ($op == 'insert')){
 			if ($id) $row = mysql_fetch_assoc(errSQLQuery("SELECT * FROM promocao WHERE id = ".$id));
@@ -26,9 +27,10 @@
 		</header>
 		<div id="container">
 		<?php if ($op == "insert" || $op == "edit"){?>
-		    <form name="formulario" action="insere.php?op=<?= $op; ?>&id=<?= $id; ?>" method="post" enctype="multipart/form-data">
+		    <form name="formulario" action="insere.php?op=<?= $op; ?>" method="post" enctype="multipart/form-data">
 				<table id="insert">
 					<tr>
+						<input type="hidden" name="id" value="<?= $row['id'] ?>">
 						<td>(*) Nome:</td>
 						<td colspan="2"><input type="text" name="tNome" onchange="fDefault(this);" value="<?php if ($op == 'edit') echo getField($row['nome']); ?>"></td>	
 					</tr>
@@ -88,6 +90,7 @@
 				echo $e->getMessage();
 			}
 		?>
+			<form method="post">
 			<table id="list">
 				<thead>
 					<tr>
@@ -102,22 +105,25 @@
 					</tr>
 				</thead>
 				<tbody>
+				
 				<?php
 					while ($rows = mysql_fetch_assoc($q)){
 				?>
 					<tr>
+						<input type="hidden" name="id" value="<?= $rows['id'] ?>">
 						<td><?= $rows['id']; ?></td>
 						<td><?= $rows['nome']; ?></td>
 						<td><?= getDatetime($rows['validadeDe']); ?></td>
 						<td><?= getDatetime($rows['validadeAte']); ?></td>
 						<td><a href="http://<?= $rows['urlSite']; ?>" target="_blank">http://<?= $rows['urlSite']; ?></a></td>
-						<td style="text-align:center;"><img style="border-radius:5px;padding:5px;border:1px solid #AAA;" src=<?= "'./vendor/thumb.php?img=../imagens/{$rows['foto']}'";?>></td>
-						<td><a href="?op=edit&id=<?= $rows['id']; ?>" onclick="if (!confirm('Deseja editar?')) return false;"><img src="img/dedit.png" border="0"></a></td>
-						<td><a href="?op=delete&id=<?= $rows['id']; ?>" onclick="if (!confirm('Deseja excluir?')) return false;"><img src="img/excluir.png" border="0"></a></td>
+						<td style="text-align:center;"><img style="border-radius:5px;padding:5px;border:1px solid #AAA;" src=<?= "'./vendor/thumb.php?img=../fotos/{$rows['foto']}'";?></td>
+						<td><input type="image" src="img/dedit.png" onclick="if (!confirm('Deseja editar?')) return false; else "></td>
+						<td><input type="image" src="img/excluir.png" onclick="if (!confirm('Deseja excluir?')) return false; else "></td>
 					</tr>
 				<?php } ?>
 				</tbody>
 			</table>
+			</form>
 			<div id="insert"><a href="?op=insert">Inserir</a></div>
 		<?php } ?>
 		</div>

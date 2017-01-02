@@ -37,19 +37,9 @@ table#insert{
 table#insert td{
 	padding:10px;
 }
-table#insert tr, table#insert td{
-	text-align:left;
-}
 table#insert td:nth-child(1){
 	text-align:right;
 	width:200px;
-}
-table#insert tr:nth-child(1)>td{
-	/*text-align:center;
-	font-size:20px;
-	text-transform:uppercase;
-	text-decoration:underline;
-	font-weight:bold;*/
 }
 table#insert tr:nth-child(2) td:nth-child(1), table#insert tr:nth-child(2) td:nth-child(2){
 	width:200px;
@@ -157,4 +147,9 @@ footer{
 	padding-top:20px;
 	border-top:5px solid #0000E8;
 	letter-spacing:1px;
+}
+input[type="image"]{
+	height:20px;
+	width:20px;
+	border:0;
 }
