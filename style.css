@@ -153,3 +153,6 @@ input[type="image"]{
 	width:20px;
 	border:0;
 }
+.labelCheckBox{
+	text-align:left;
+}

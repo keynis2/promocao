@@ -46,7 +46,7 @@ try{
 
 		if (isset($photo) && !empty($photo)) unlink("fotos/".$photo['foto']);
 		$upload = new Upload($foto, 480, 720, "fotos/");
-		if (errSQLQuery("UPDATE promocao SET nome = '".$nome."', validadeDe = '".setDatetime($dataDe)."', validadeAte = '".setDateTime($dataAte)."', premios = '".$premios."', iPremios = '".$iPremios."', urlSite = '".setUrlSite($urlSite)."', foto = '". $upload->salvar() ."', envioMax = '".$envioMax."', guardar = '".$guardar."'  WHERE id = ".$_GET['id']))
+		if (errSQLQuery("UPDATE promocao SET nome = '".$nome."', validadeDe = '".setDatetime($dataDe)."', validadeAte = '".setDateTime($dataAte)."', premios = '".$premios."', iPremios = '".$iPremios."', urlSite = '".setUrlSite($urlSite)."', foto = '". $upload->salvar() ."', envioMax = '".$envioMax."', guardar = '".$guardar."'  WHERE id = ".$id))
 			echo "<h1>Os dados foram atualizados com sucesso!</h1>";
 		else
 			echo "<h1>Ocorreu um erro durante a atualização!</h1>";
