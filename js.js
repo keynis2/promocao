@@ -30,3 +30,17 @@ function onIn(fieldName, value){
 function onOut(fieldName, value){
 	if (document.getElementsByName(fieldName)[0].value == '') document.getElementsByName(fieldName)[0].value = value;
 }
+function addProducts(){
+	var trs = document.createElement('tr');
+	var tds = document.createElement('td');
+	var tds2 = document.createElement('td');
+	tds2.colspan = "2";
+	document.trs.appendChild(tds);
+	document.trs.appendChild(tds2);
+	var inputs = document.createElement('input');
+	inputs.type = "text";
+	inputs.name = "tProdutos[]";
+	inputs.onchange = "fDefault(this);";
+	document.tds2.appendChild(inputs);
+	document.getElementById('trPrdct').appendChild(inputs);
+}

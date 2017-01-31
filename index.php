@@ -53,17 +53,13 @@
 						<td><span>De: </span><input type="datetime-local" name="dtlDataDe" onchange="fDefault(this);" value="<?php if ($op == 'edit') echo getDateTtime($row['validadeDe']); ?>"></td>
 						<td><span>Até: </span><input type="datetime-local" name="dtlDataAte" onchange="fDefault(this);" value="<?php if ($op == 'edit') echo getDateTtime($row['validadeAte']); ?>"></td>
 					</tr>
-					<tr>
-						<td>(*) 	Produtos participantes</td>
-						<td colspan="2"><input type="text" name="tProdutos" onchange="fDefault(this);" ></td>
+					<tr id="trPrdct">
+						<td>(*) Produtos participantes<span onclick="addProducts">+</span></td>
+						<td colspan="2"><input type="text" name="tProdutos[]" onchange="fDefault(this);" ></td>
 					</tr>
 					<tr>
 						<td>(*) Prêmios</td>
 						<td colspan="2"><input type="text" name="tPremios" onchange="fDefault(this);" value="<?php if ($op == 'edit') echo getField($row['premios']); ?>"></td>
-					</tr>
-					<tr>
-						<td>Prêmios - Informações:</td>
-						<td colspan="2"><textarea name="taPremios" onfocus="onIn(this.name, 'Entre com informações dos prêmios...');" onblur="onOut(this.name, 'Entre com informações dos prêmios...');" onchange="fDefault(this);"><?= $t = ($id) ? getField($row['iPremios']) : "Entre com informações dos prêmios..."; ?></textarea></td>
 					</tr>
 					<tr>
 						<td>Documentos:</td>
