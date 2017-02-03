@@ -1,6 +1,6 @@
 <codestructure version="5.11">
 <phptree>
-<treenode node="config.php;PHP:PHP Include;C:\xampp\htdocs\php\promocao\index.php;f12;9;22;9;;C:\xampp\htdocs\php\promocao\insere.php;f9;16;19;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+<treenode node="config.php;PHP:PHP Include;C:\xampp\htdocs\php\promocao\insere.php;f9;16;19;16;;C:\xampp\htdocs\php\promocao\index.php;f12;9;22;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 </treenode>
 <treenode node="E_DEPRECATED;PHP:PHP Word;C:\xampp\htdocs\php\promocao\FirePHPCore\FirePHP.class.php;f12;49;24;49;;;;vpos;;v;;r8192;;d-1,-1;;b0,0;;m">
 </treenode>
@@ -10,7 +10,7 @@
 </treenode>
 <treenode node="E_USER_DEPRECATED;PHP:PHP Word;C:\xampp\htdocs\php\promocao\FirePHPCore\FirePHP.class.php;f12;52;29;52;;;;vpos;;v;;r16384;;d-1,-1;;b0,0;;m">
 </treenode>
-<treenode node="functions.php;PHP:PHP Include;C:\xampp\htdocs\php\promocao\index.php;f12;10;25;10;;C:\xampp\htdocs\php\promocao\insere.php;f9;17;22;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+<treenode node="functions.php;PHP:PHP Include;C:\xampp\htdocs\php\promocao\insere.php;f9;17;22;17;;C:\xampp\htdocs\php\promocao\index.php;f12;10;25;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 </treenode>
 <treenode node="HOST;PHP:PHP Word;C:\xampp\htdocs\php\promocao\config.php;f8;1;12;1;;;;vpos;;v;;r&quot;localhost&quot;;;d-1,-1;;b0,0;;m">
 </treenode>

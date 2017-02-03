@@ -30,17 +30,33 @@ function onIn(fieldName, value){
 function onOut(fieldName, value){
 	if (document.getElementsByName(fieldName)[0].value == '') document.getElementsByName(fieldName)[0].value = value;
 }
+
+function insertAfter(newNode, referenceNode) {
+    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
 function addProducts(){
 	var trs = document.createElement('tr');
+	trs.className = "trPrdct";
 	var tds = document.createElement('td');
 	var tds2 = document.createElement('td');
-	tds2.colspan = "2";
-	document.trs.appendChild(tds);
-	document.trs.appendChild(tds2);
+	tds2.colSpan = "2";
+	trs.appendChild(tds);
+	trs.appendChild(tds2);
 	var inputs = document.createElement('input');
 	inputs.type = "text";
 	inputs.name = "tProdutos[]";
 	inputs.onchange = "fDefault(this);";
-	document.tds2.appendChild(inputs);
-	document.getElementById('trPrdct').appendChild(inputs);
+	tds2.appendChild(inputs);
+	var nodeAfter = document.getElementsByClassName('trPrdct')[0];
+	insertAfter(trs, nodeAfter);
+	var nodeRemoveClass = document.getElementsByClassName('trPrdct')[0];
+	nodeRemoveClass.removeAttribute("class");
+}
+
+function removeProducts(){
+	var nodeRemoveClass = document.getElementsByClassName('trPrdct')[0];
+	var nodeAddClass = nodeRemoveClass.previousSibling;
+	nodeAddClass.className = "trPrdct";
+	nodeRemoveClass.removeChild()
 }

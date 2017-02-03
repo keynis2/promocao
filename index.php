@@ -53,8 +53,8 @@
 						<td><span>De: </span><input type="datetime-local" name="dtlDataDe" onchange="fDefault(this);" value="<?php if ($op == 'edit') echo getDateTtime($row['validadeDe']); ?>"></td>
 						<td><span>Até: </span><input type="datetime-local" name="dtlDataAte" onchange="fDefault(this);" value="<?php if ($op == 'edit') echo getDateTtime($row['validadeAte']); ?>"></td>
 					</tr>
-					<tr id="trPrdct">
-						<td>(*) Produtos participantes<span onclick="addProducts">+</span></td>
+					<tr class="trPrdct">
+						<td>(*) Produtos participantes<span onclick="addProducts()">+</span></td>
 						<td colspan="2"><input type="text" name="tProdutos[]" onchange="fDefault(this);" ></td>
 					</tr>
 					<tr>

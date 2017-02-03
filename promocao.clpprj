@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\xampp\htdocs\php\promocao\promocao.clpprj">
 	<settings><PM_URL><![CDATA[http://localhost/promocao]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/promocao]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\xampp\htdocs\php\promocao\js.js"/>
 		<file name="C:\xampp\htdocs\php\promocao\index.php"/>
 		<file name="C:\xampp\htdocs\php\promocao\style.css"/>
-		<file name="C:\xampp\htdocs\php\promocao\insere.php"/>
-		<file name="C:\xampp\htdocs\php\promocao\js.js"/>
 	</lastopfiles>
 	<errors version="5.11">
 	</errors>
@@ -26,9 +25,9 @@
 		<file name="C:\xampp\htdocs\php\promocao\teste.html" crc="1485558221"/>
 		<file name="C:\xampp\htdocs\php\promocao\style.css" crc="1485561276"/>
 		<file name="C:\xampp\htdocs\php\promocao\scripts.txt" crc="1485558221"/>
-		<file name="C:\xampp\htdocs\php\promocao\js.js" crc="1485564076"/>
+		<file name="C:\xampp\htdocs\php\promocao\js.js" crc="1486074139"/>
 		<file name="C:\xampp\htdocs\php\promocao\insere.php" crc="1485558221"/>
-		<file name="C:\xampp\htdocs\php\promocao\index.php" crc="1485563390"/>
+		<file name="C:\xampp\htdocs\php\promocao\index.php" crc="1486080799"/>
 		<file name="C:\xampp\htdocs\php\promocao\functions.php" crc="1485558221"/>
 		<file name="C:\xampp\htdocs\php\promocao\config.php" crc="1485558221"/>
 		<file name="C:\xampp\htdocs\php\promocao\Codelobster0.php" crc="1485558221"/>
